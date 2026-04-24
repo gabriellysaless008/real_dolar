@@ -8,7 +8,7 @@ function calcula_dolar(){
 
     dolares = real / taxa_cambio;
 
-    document.getElementById( "dolares" ).innerHTML = " O valor em dolar sera: " + dolares.toFixed(2);
+    document.getElementById( "dolares" ).innerHTML = " O valor em dolar sera: " + dolares.toFixed(2) + "  $";
     //document.getElementById( "informacao" ).innerHTML = " O valor em dolar sera: ";
     console.log(dolares);
 }

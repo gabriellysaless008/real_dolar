@@ -1,0 +1,65 @@
+/* Configuração geral para centralizar o conteúdo na tela */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d8e0eb; /* Fundo cinza claro para destacar o card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilização do título */
+h3 {
+    color: #008B8B; /* Verde da bandeira */
+    margin-bottom: 20px;
+}
+
+/* Estilização dos campos de entrada e botões */
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #008080; /* Amarelo da bandeira */
+    border-radius: 5px;
+    width: 250px;
+    outline: none;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    border-color: #48D1CC; /* Muda para verde ao clicar */
+}
+
+button {
+    background-color: #20B2AA; /* Verde */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    width: 275px; /* Ajustado para alinhar com o input */
+}
+
+button:hover {
+    background-color: #48D1CC; /* Verde mais escuro no hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Estilização dos labels de resultado */
+label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #48D1CC;
+    display: block; /* Garante que fiquem em linhas separadas */
+    font-size: 18px;
+}
+
+#dolares {
+    color: #ffffff;
+    background-color: #5F9EA0	;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
