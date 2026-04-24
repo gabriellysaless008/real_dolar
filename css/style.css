@@ -63,3 +63,42 @@ label {
     padding: 5px 10px;
     border-radius: 4px;
 }
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: #b0f7f3; /* Azul bem clarinho */
+    border-left: 4px solid #73bbbb; /* Barra lateral de destaque */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.card_2 {
+    background-color: #008080;
+    color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 15px;
+    flex-shrink: 0; /* Impede o ícone de amassar em telas pequenas */
+}
+
+.content h4 {
+    font-size: 0.9rem;
+    color: #000007;
+    margin: 0 0 4px 0;
+}
+
+.content p {
+    font-size: 0.8rem;
+    color: #000000;
+    margin: 0;
+    line-height: 1.4;
+}
