@@ -1,7 +1,7 @@
-/* Configuração geral para centralizar o conteúdo na tela */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #d8e0eb; /* Fundo cinza claro para destacar o card */
+    background-color: #d8e0eb;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,17 +9,15 @@ body {
     height: 100vh;
     margin: 0;
 }
-
-/* Estilização do título */
 h3 {
-    color: #008B8B; /* Verde da bandeira */
+    color: #008B8B;
     margin-bottom: 20px;
 }
 
-/* Estilização dos campos de entrada e botões */
+
 input[type="text"] {
     padding: 10px;
-    border: 2px solid #008080; /* Amarelo da bandeira */
+    border: 2px solid #008080;
     border-radius: 5px;
     width: 250px;
     outline: none;
@@ -27,11 +25,11 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #48D1CC; /* Muda para verde ao clicar */
+    border-color: #48D1CC;
 }
 
 button {
-    background-color: #20B2AA; /* Verde */
+    background-color: #20B2AA;
     color: #ffffff;
     border: none;
     padding: 12px 20px;
@@ -40,11 +38,11 @@ button {
     font-weight: bold;
     font-size: 16px;
     transition: background 0.3s ease;
-    width: 275px; /* Ajustado para alinhar com o input */
+    width: 275px;
 }
 
 button:hover {
-    background-color: #48D1CC; /* Verde mais escuro no hover */
+    background-color: #48D1CC;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
@@ -53,7 +51,7 @@ label {
     margin-top: 15px;
     font-weight: bold;
     color: #48D1CC;
-    display: block; /* Garante que fiquem em linhas separadas */
+    display: block;
     font-size: 18px;
 }
 
@@ -67,8 +65,8 @@ label {
 .card {
     display: flex;
     align-items: center;
-    background-color: #b0f7f3; /* Azul bem clarinho */
-    border-left: 4px solid #73bbbb; /* Barra lateral de destaque */
+    background-color: #b0f7f3;
+    border-left: 4px solid #73bbbb;
     padding: 10px;
     border-radius: 8px;
     margin: 20px 0;
@@ -87,7 +85,7 @@ label {
     font-weight: bold;
     font-style: italic;
     margin-right: 15px;
-    flex-shrink: 0; /* Impede o ícone de amassar em telas pequenas */
+    flex-shrink: 0;
 }
 
 .content h4 {
